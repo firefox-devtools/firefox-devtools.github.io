@@ -8,6 +8,15 @@ To get started you'll need to install the dependencies required using [yarn](htt
 
 ```bash
 yarn install
+bundle install
+```
+
+### Develop
+
+As you work on the docs you can view the changes locally by running this command.
+
+```
+bundle exec jekyll serve
 ```
 
 ### Test
