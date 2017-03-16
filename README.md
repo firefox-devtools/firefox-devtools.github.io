@@ -20,7 +20,7 @@ The repositories in `devtools-html` are more straightforward if you're used to *
 
 Since we have code in two different places, issues and bugs are to be found in two different places:
 
-* For code in `m-c`: http://firefox-dev.tools/ which also lets you filter by good bugs for beginners.
+* For code in `m-c`: [http://firefox-dev.tools/](http://firefox-dev.tools/) which also lets you filter by good bugs for beginners.
 * For code in `devtools-html`: [this page](https://github.com/search?l=&q=org%3Adevtools-html+state%3Aopen&type=Issues) lists all the issues across the organisation.
 <!--TODO: ^^ add label:"help wanted" or similar to the query to get easy issues-->
 
@@ -47,7 +47,7 @@ This is just a brief overview. For more detailed documentation:
 
 The tools are broadly divided into panels. Each panel has one or more owners, who mostly work(s) on that panel and are the best people to ask if you have specific questions about the code.
 
-<!-- TODO: from https://wiki.mozilla.org/DevTools/GetInvolved#Communication but update it --> 
+<!-- TODO: from https://wiki.mozilla.org/DevTools/GetInvolved#Communication but update it -->
 <!-- TODO: * show organisations in github (doesn't work if people don't make their membership public) -->
 
 ## News and demos
