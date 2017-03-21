@@ -76,3 +76,23 @@ There are various ways to get in touch with us:
 Most changes will be done via either the "pick a bug and send a patch" or "send a PR" processes.
 
 For substantial changes, we ask that a "request for comment" (RFC) document is provided first, so we can examine what the implications of a change will be. Here is [how to follow the RFC process](https://github.com/devtools-html/rfcs/).
+
+## People
+
+<style>
+  .people-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+</style>
+
+<div class="people-grid">
+{% for person in site.github.organization_members %}
+  <a style="display:block;text-align:center;" src="{{ person.html_url }}">
+  <img style="width:48px;max-height:48px;" src="{{ person.avatar_url }}"/>
+  <div>{{ person.login }}</div>
+  </a>
+{% endfor %}
+</div>
