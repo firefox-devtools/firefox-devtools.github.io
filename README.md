@@ -38,8 +38,8 @@ You might also hear about `the toolbox`. The toolbox is what everyone else calls
 
 This is just a brief overview. For more detailed documentation:
 
-* There is a [docs](https://dxr.mozilla.org/mozilla-central/source/devtools/docs) folder on `m-c` plus the [docs](https://dxr.mozilla.org/mozilla-central/source/devtools/server/docs) folder on the `server` folder in `m-c` as well. Each of these folders contain multiple MarkDown files (`.md`) with information about individual panels.
-* [Internal technical documentation](https://wiki.mozilla.org/DevTools#Internal_Technical_Documentation)
+* There is a [docs](https://dxr.mozilla.org/mozilla-central/source/devtools/docs) folder on `m-c` with technical information about the tools and about each individual panel. We are publishing [an HTML version of these documents](http://firefox-dev.tools/docs/) as well.
+* [Internal technical documentation](https://wiki.mozilla.org/DevTools#Internal_Technical_Documentation) (NOTE: we're migrating from here to the folder mentioned above).
 * Additionally, check out each GitHub repository for documentation specific to that repository or module.
 * Not strictly a roadmap, but these are [some of our 2017 goals](https://groups.google.com/forum/#!topic/mozilla.dev.developer-tools/e-WTOb1U8Sc).
 
