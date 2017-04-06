@@ -4,7 +4,7 @@ This document needs lots of help, please update and improve it!
 
 ### Setup
 
-To get started you'll need to install the dependencies required using [yarn](https://yarnpkg.com/).
+To get started you'll need to install the dependencies required using [yarn](https://yarnpkg.com/) and [bundler](http://bundler.io/).
 
 ```bash
 yarn install
