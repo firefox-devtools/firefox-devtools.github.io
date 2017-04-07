@@ -6,7 +6,7 @@ This repository aims to provide a general overview of [how the tools are built](
 
 If you are looking for user support, there's [a whole area at MDN](https://developer.mozilla.org/en-US/docs/Tools) dedicated to it.
 
-We abide by our [code of conduct](https://dxr.mozilla.org/mozilla-central/source/devtools/CODE_OF_CONDUCT.md) and expect all contributors to do the same.
+We abide by our [code of conduct](CODE_OF_CONDUCT.md), and expect all contributors to do the same.
 
 ## Working on the code and contributing
 
