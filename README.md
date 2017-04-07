@@ -2,11 +2,15 @@
 
 These are the tools provided by Firefox for developers to inspect Web code.
 
-This repository aims to provide a general overview of how the tools are built, who's working on them, and how to get involved. If you are looking for user support, there's [a whole area at MDN](https://developer.mozilla.org/en-US/docs/Tools) dedicated to it.
+This repository aims to provide a general overview of [how the tools are built](#working-on-the-code-and-contributing), [who](#people-and-modules) is working on them, and how to [get involved](#getting-in-touch).
+
+If you are looking for user support, there's [a whole area at MDN](https://developer.mozilla.org/en-US/docs/Tools) dedicated to it.
 
 We abide by our [code of conduct](https://dxr.mozilla.org/mozilla-central/source/devtools/CODE_OF_CONDUCT.md) and expect all contributors to do the same.
 
 ## Working on the code and contributing
+
+The code for our tools is in two different locations, so if you want to work on a specific tool you will first need to locate where it is.
 
 ### `mozilla-central` vs `devtools-html`
 
@@ -21,8 +25,7 @@ The repositories in `devtools-html` are more straightforward if you're used to *
 Since we have code in two different places, issues and bugs are to be found in two different places:
 
 * For code in `m-c`: [http://firefox-dev.tools/](http://firefox-dev.tools/) which also lets you filter by good bugs for beginners.
-* For code in `devtools-html`: [this page](https://github.com/search?l=&q=org%3Adevtools-html+state%3Aopen&type=Issues) lists all the issues across the organisation.
-<!--TODO: ^^ add label:"help wanted" or similar to the query to get easy issues-->
+* For code in `devtools-html`: [this page](https://github.com/search?l=&q=org%3Adevtools-html+state%3Aopen&type=Issues) lists all the issues across the organisation and these are [available issues](https://github.com/search?l=&q=org%3Adevtools-html+state%3Aopen+label%3Aavailable&type=Issues) i.e. ready to be worked on.
 
 ## Documentation
 
@@ -47,8 +50,28 @@ This is just a brief overview. For more detailed documentation:
 
 The tools are broadly divided into panels. Each panel has one or more owners, who mostly work(s) on that panel and are the best people to ask if you have specific questions about the code.
 
-<!-- TODO: from https://wiki.mozilla.org/DevTools/GetInvolved#Communication but update it -->
-<!-- TODO: * show organisations in github (doesn't work if people don't make their membership public) -->
+* about:debugging: jdescottes, ochameau
+* Animation Inspector: gl, pbro, daisuke
+* Canvas Debugger: `<unmaintained>`
+* Console: bgrins, nchevobbe
+* Debugger: jlast
+* Developer Toolbar: jwalker, mikeratcliffe
+* DOM: honza
+* Framework: Browser integration, toolbox and test infrastructure: jryans, bgrins, ochameau, honza
+* Inspector: gl, pbro, zer0, jdescottes, tromey
+* JSON Viewer: honza
+* Memory: gregtatum
+* Network Monitor: honza, rickychien, gasolin
+* Performance: gregtatum
+* Remote protocol and server infrastructure: jryans, ochameau
+* Responsive Design Mode: jryans, zer0
+* Scratchpad: jdescottes
+* Shader Editor: `<unmaintained>`
+* Style Editor: gl
+* Storage Inspector: mikeratcliffe
+* Themes: bgrins, ntim
+* Web Audio Editor: `<unmaintained>`
+* WebIDE: jryans, ochameau
 
 ## News and demos
 
@@ -63,13 +86,15 @@ You're more than encouraged to help us talk about the tools by writing an articl
 
 There are various ways to get in touch with us:
 
-* To request features or report errors:
-  * You can [file bugs in Mozilla's bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox&component=Developer%20Tools)
+* Bug reports or feature requests:
+  * You can [file bugs in Mozilla's bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox&component=Developer%20Tools) (please respect the [etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html)).
   * or under each repository in [devtools-html](https://github.com/devtools-html) for code in GitHub
-* We have [a section](https://discourse.mozilla-community.org/c/devtools) on the Mozilla forum. If you want to ask questions, this is a great way to get in touch with us and also ensuring that your question is visible to other people (and hopefully help them as well).
-* We also have a [mailing list](https://groups.google.com/forum/#!forum/mozilla.dev.developer-tools). For people who prefer mail to forums.
-* If you'd prefer to chat, there's a `#devtools` channel in `irc.mozilla.org`, but bear in mind that perhaps the person that could help you best is not online when you ask the question. For that reason, it might be better to use the forum or mailing list instead.
+* The [DevTools forum](https://discourse.mozilla-community.org/c/devtools) is a great way to get in touch with us and also ensure that your question is visible to other people (and hopefully help them as well).
+* [Mailing list](https://groups.google.com/forum/#!forum/mozilla.dev.developer-tools): for people who prefer mail to forums.
+* Team weekly video call: [Vidyo room DevTools](https://v.mozilla.com/flex.html?roomdirect.html&key=n9vJUD3L1vRMHKQC5OCNRT3UBjw), Tuesdays 9AM Pacific time.
+* IRC chat: `#devtools` channel in `irc.mozilla.org`, but bear in mind that perhaps the person that could help you best is not online when you ask the question. For that reason, it might be better to use the forum or mailing list instead.
 * Contributors to `debugger.html` also hold [periodic hangouts and have a slack channel](https://github.com/devtools-html/debugger.html#discussion).
+* Twitter: [@FirefoxDevTools](https://twitter.com/FirefoxDevTools).
 
 ## Processes
 
