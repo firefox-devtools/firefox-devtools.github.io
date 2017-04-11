@@ -10,15 +10,10 @@ We abide by our [code of conduct](CODE_OF_CONDUCT.md), and expect all contributo
 
 ## Working on the code and contributing
 
-The code for our tools is in two different locations, so if you want to work on a specific tool you will first need to locate where it is.
-
-### `mozilla-central` vs `devtools-html`
-
-The bulk of the code is hosted in the Firefox repository (we call it `mozilla-central`, often abbreviated as `m-c`), in the [devtools](https://dxr.mozilla.org/mozilla-central/source/devtools) folder. Development of newer pieces of the tools is happening in GitHub, on the [devtools-html](https://github.com/devtools-html/) organisation.
-
-Code in `m-c` takes longer to set up from scratch, as it involves installing Mercurial and binary tools such as compiler to build a version of Firefox in your machine, but it is required if you want to work on most of the tools (as the majority of them are in this repository). Here are [the instructions](https://wiki.mozilla.org/DevTools/Hacking) plus this [very good article](https://eduardoboucas.com/blog/2017/02/09/contributing-firefox-devtools.html).
-
-The repositories in `devtools-html` are more straightforward if you're used to *the GitHub workflow*: you clone them, and then run `npm install && npm run` or similar. Roughly, you can work with each repository individually and we periodically we generate JavaScript bundles that are then copied into `m-c`.
+* [Building DevTools](./docs/building.md) will get you from zero to custom build of DevTools you can modify in your computer.
+<!--TODO: * creating a dev profile, recommended settings-->
+<!--TODO: * Finding bugs to work on-->
+<!--TODO: * Getting your code into DevTools' repository (AKA creating and sending patches) -->
 
 ### Bugs and issue trackers
 
