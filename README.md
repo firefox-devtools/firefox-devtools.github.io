@@ -11,7 +11,7 @@ We abide by our [code of conduct](CODE_OF_CONDUCT.md), and expect all contributo
 ## Working on the code and contributing
 
 * [Building DevTools](./docs/building.md) will get you from zero to custom build of DevTools you can modify in your computer.
-<!--TODO: * creating a dev profile, recommended settings-->
+* [Setting up a development profile](./docs/building-development-profile.md) shows how to configure Firefox with the best settings for developing and debugging DevTools.
 <!--TODO: * Finding bugs to work on-->
 <!--TODO: * Getting your code into DevTools' repository (AKA creating and sending patches) -->
 

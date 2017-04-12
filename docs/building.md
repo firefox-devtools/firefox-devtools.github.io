@@ -136,3 +136,4 @@ While not as fast as the average "save file and reload the website" *web develop
 
 And certainly faster than building each time, even with artifact builds.
 
+Next up: [setting up a development profile](./building-development-profile.md).
