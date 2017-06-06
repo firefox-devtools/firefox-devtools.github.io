@@ -2,71 +2,15 @@
 
 These are the tools provided by Firefox for developers to inspect Web code.
 
-This repository aims to provide a general overview of [how the tools are built](#working-on-the-code-and-contributing), [who](#people-and-modules) is working on them, and how to [get involved](#getting-in-touch).
-
-If you are looking for user support, there's [a whole area at MDN](https://developer.mozilla.org/en-US/docs/Tools) dedicated to it.
+This repository is a hub that points to Developer Tools resources.
 
 We abide by our [code of conduct](CODE_OF_CONDUCT.md), and expect all contributors to do the same.
 
-## Working on the code and contributing
-
-* [Building DevTools](./docs/building.md) will get you from zero to custom build of DevTools you can modify in your computer.
-* [Setting up a development profile](./docs/building-development-profile.md) shows how to configure Firefox with the best settings for developing and debugging DevTools.
-<!--TODO: * Finding bugs to work on-->
-<!--TODO: * Getting your code into DevTools' repository (AKA creating and sending patches) -->
-
-### Bugs and issue trackers
-
-Since we have code in two different places, issues and bugs are to be found in two different places:
-
-* For code in `m-c`: [http://firefox-dev.tools/](http://firefox-dev.tools/) which also lets you filter by good bugs for beginners.
-* For code in `devtools-html`: [this page](https://github.com/search?l=&q=org%3Adevtools-html+state%3Aopen&type=Issues) lists all the issues across the organisation and these are [available issues](https://github.com/search?l=&q=org%3Adevtools-html+state%3Aopen+label%3Aavailable&type=Issues) i.e. ready to be worked on.
-
 ## Documentation
 
-Broadly speaking, the tools are divided in two parts: the server and the client. A **server** is anything that can be debugged: for example, your browser, but it could also be Firefox for Android, running on another device. The **client** is the front-end side of the tools, and it is what developers interact with when using the tools.
-
-Since these two parts are decoupled, we can connect to any server using the same client. This enables us to debug multiple types of servers, using the same protocol to communicate.
-
-You will often hear about `actors`. Each feature that can be debugged (for example, network) is exposed via an `actor`, which provides data about that specific feature. It's up to each server to implement some or all actors; the client needs to find out and decide what it can render on the front-side when it connects to the server. So when we want to debug a new feature, we might need to do work in two parts of the code: the server (perhaps implementing a new actor, or extending existing ones) and the client (to display the debugging data returned by the actor).
-
-Often, an actor will correspond to a panel. But a panel might want to get data from multiple actors.
-
-You might also hear about `the toolbox`. The toolbox is what everyone else calls `developer tools` i.e. the front-end that you see when you open the tools in your browser.
-
-This is just a brief overview. For more detailed documentation:
-
-* There is a [docs](https://dxr.mozilla.org/mozilla-central/source/devtools/docs) folder on `m-c` with technical information about the tools and about each individual panel. We are publishing [an HTML version of these documents](http://firefox-dev.tools/docs/) as well.
-* [Internal technical documentation](https://wiki.mozilla.org/DevTools#Internal_Technical_Documentation) (NOTE: we're migrating from here to the folder mentioned above).
-* Additionally, check out each GitHub repository for documentation specific to that repository or module.
+* [End user guides](https://developer.mozilla.org/en-US/docs/Tools).
+* [Developers](https://dxr.mozilla.org/mozilla-central/source/devtools/docs/) documentation - here's [an HTML version of these documents](http://firefox-dev.tools/docs/) as well.
 * Not strictly a roadmap, but these are [some of our 2017 goals](https://groups.google.com/forum/#!topic/mozilla.dev.developer-tools/e-WTOb1U8Sc).
-
-## People and modules
-
-The tools are broadly divided into panels. Each panel has one or more owners, who mostly work(s) on that panel and are the best people to ask if you have specific questions about the code.
-
-* about:debugging: jdescottes, ochameau
-* Animation Inspector: gl, pbro, daisuke
-* Canvas Debugger: `<unmaintained>`
-* Console: bgrins, nchevobbe
-* Debugger: jlast
-* Developer Toolbar: jwalker, mikeratcliffe
-* DOM: honza
-* Framework: Browser integration, toolbox and test infrastructure: jryans, bgrins, ochameau, honza
-* Inspector: gl, pbro, zer0, jdescottes, tromey
-* JSON Viewer: honza
-* Memory: gregtatum
-* Network Monitor: honza, rickychien, gasolin
-* Performance: gregtatum
-* Remote protocol and server infrastructure: jryans, ochameau
-* Responsive Design Mode: jryans, zer0
-* Scratchpad: jdescottes
-* Shader Editor: `<unmaintained>`
-* Style Editor: gl
-* Storage Inspector: mikeratcliffe
-* Themes: bgrins, ntim
-* Web Audio Editor: `<unmaintained>`
-* WebIDE: jryans, ochameau
 
 ## News and demos
 
@@ -75,7 +19,7 @@ We publish news and updates to two blogs:
 * [Nightly](https://blog.nightly.mozilla.org/tag/devtools/) for features newly added to Firefox Nightly. This is the place to request feedback from early adopters!
 * [Hacks](https://hacks.mozilla.org/category/developer-tools/) when features reach more stable versions of Firefox.
 
-You're more than encouraged to help us talk about the tools by writing an article, making a demo, or both! We also wrote [some guidelines for making demos](https://github.com/devtools-html/devtools-demos).
+You're more than encouraged to help us talk about the tools by writing an article, making a demo, or both! We wrote [some guidelines for making demos](https://github.com/devtools-html/devtools-demos).
 
 ## Getting in touch
 
@@ -86,7 +30,7 @@ There are various ways to get in touch with us:
   * or under each repository in [devtools-html](https://github.com/devtools-html) for code in GitHub
 * The [DevTools forum](https://discourse.mozilla-community.org/c/devtools) is a great way to get in touch with us and also ensure that your question is visible to other people (and hopefully help them as well).
 * [Mailing list](https://groups.google.com/forum/#!forum/mozilla.dev.developer-tools): for people who prefer mail to forums.
-* Team weekly video call: [Vidyo room DevTools](https://v.mozilla.com/flex.html?roomdirect.html&key=n9vJUD3L1vRMHKQC5OCNRT3UBjw), Tuesdays 9AM Pacific time.
+* Team weekly video call: [Vidyo room DevTools](https://v.mozilla.com/flex.html?roomdirect.html&key=n9vJUD3L1vRMHKQC5OCNRT3UBjw), Tuesdays 9AM Pacific time. The [meeting doc](https://docs.google.com/document/d/1pUx9xq6L7bonSrDpyUNTQkQxTxAsULLu4kkHZLMEq6w/edit) has more details.
 * IRC chat: `#devtools` channel in `irc.mozilla.org`, but bear in mind that perhaps the person that could help you best is not online when you ask the question. For that reason, it might be better to use the forum or mailing list instead.
 * Contributors to `debugger.html` also hold [periodic hangouts and have a slack channel](https://github.com/devtools-html/debugger.html#discussion).
 * Twitter: [@FirefoxDevTools](https://twitter.com/FirefoxDevTools).
@@ -116,3 +60,32 @@ For substantial changes, we ask that a "request for comment" (RFC) document is p
   </a>
 {% endfor %}
 </div>
+
+### People and modules
+
+The tools are broadly divided into panels. Each panel has one or more owners, who mostly work(s) on that panel and are the best people to ask if you have specific questions about the code.
+
+* about:debugging: jdescottes, ochameau
+* Animation Inspector: gl, pbro, daisuke
+* Canvas Debugger: `<unmaintained>`
+* Console: bgrins, nchevobbe
+* Debugger: jlast
+* Developer Toolbar: jwalker, mikeratcliffe
+* DOM: honza
+* Framework: Browser integration, toolbox and test infrastructure: jryans, bgrins, ochameau, honza
+* Inspector: gl, pbro, zer0, jdescottes, tromey
+* JSON Viewer: honza
+* Memory: gregtatum
+* Network Monitor: honza, rickychien, gasolin
+* Performance: gregtatum
+* Remote protocol and server infrastructure: jryans, ochameau
+* Responsive Design Mode: jryans, zer0
+* Scratchpad: jdescottes
+* Shader Editor: `<unmaintained>`
+* Style Editor: gl
+* Storage Inspector: mikeratcliffe
+* Themes: bgrins, ntim
+* Web Audio Editor: `<unmaintained>`
+* WebIDE: jryans, ochameau
+
+
