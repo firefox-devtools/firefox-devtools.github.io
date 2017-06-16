@@ -1,15 +1,13 @@
 # Firefox Developer Tools
 
-These are the tools provided by Firefox for developers to inspect Web code.
-
-This repository is a hub that points to Developer Tools resources.
+These are the tools provided by [Firefox](https://www.mozilla.org/firefox/) for developers to inspect Web code.
 
 We abide by our [code of conduct](CODE_OF_CONDUCT.md), and expect all contributors to do the same.
 
 ## Documentation
 
 * [End user guides](https://developer.mozilla.org/en-US/docs/Tools).
-* [Developers](https://dxr.mozilla.org/mozilla-central/source/devtools/docs/) documentation - here's [an HTML version of these documents](http://firefox-dev.tools/docs/) as well.
+* [Developers](https://dxr.mozilla.org/mozilla-central/source/devtools/docs/) documentation - here's [an HTML version of these documents](http://docs.firefox-dev.tools/) as well.
 * Not strictly a roadmap, but these are [some of our 2017 goals](https://groups.google.com/forum/#!topic/mozilla.dev.developer-tools/e-WTOb1U8Sc).
 
 ## News and demos
@@ -19,20 +17,19 @@ We publish news and updates to two blogs:
 * [Nightly](https://blog.nightly.mozilla.org/tag/devtools/) for features newly added to Firefox Nightly. This is the place to request feedback from early adopters!
 * [Hacks](https://hacks.mozilla.org/category/developer-tools/) when features reach more stable versions of Firefox.
 
-You're more than encouraged to help us talk about the tools by writing an article, making a demo, or both! We wrote [some guidelines for making demos](https://github.com/devtools-html/devtools-demos).
+You're more than encouraged to talk, write articles, or [make demos](https://github.com/devtools-html/devtools-demos) about the tools. Let us know 🙂
 
 ## Getting in touch
 
-There are various ways to get in touch with us:
-
 * Bug reports or feature requests:
-  * You can [file bugs in Mozilla's bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox&component=Developer%20Tools) (please respect the [etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html)).
-  * or under each repository in [devtools-html](https://github.com/devtools-html) for code in GitHub
-* The [DevTools forum](https://discourse.mozilla-community.org/c/devtools) is a great way to get in touch with us and also ensure that your question is visible to other people (and hopefully help them as well).
-* [Mailing list](https://groups.google.com/forum/#!forum/mozilla.dev.developer-tools): for people who prefer mail to forums.
-* Team weekly video call: [Vidyo room DevTools](https://v.mozilla.com/flex.html?roomdirect.html&key=n9vJUD3L1vRMHKQC5OCNRT3UBjw), Tuesdays 9AM Pacific time. The [meeting doc](https://docs.google.com/document/d/1pUx9xq6L7bonSrDpyUNTQkQxTxAsULLu4kkHZLMEq6w/edit) has more details.
-* IRC chat: `#devtools` channel in `irc.mozilla.org`, but bear in mind that perhaps the person that could help you best is not online when you ask the question. For that reason, it might be better to use the forum or mailing list instead.
-* Contributors to `debugger.html` also hold [periodic hangouts and have a slack channel](https://github.com/devtools-html/debugger.html#discussion).
+  * [File bugs in Mozilla's Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox&component=Developer%20Tools) (please respect the [etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html))
+  * or under each repository in [devtools-html](https://github.com/devtools-html) for code in GitHub.
+  * Report vulnerabilities to `security@mozilla.org`. [More info](https://www.mozilla.org/en-US/security/#For_Developers).
+* [DevTools forum](https://discourse.mozilla-community.org/c/devtools).
+* [Mailing list](https://groups.google.com/forum/#!forum/mozilla.dev.developer-tools).
+* Team weekly video call: [Vidyo room DevTools](https://v.mozilla.com/flex.html?roomdirect.html&key=n9vJUD3L1vRMHKQC5OCNRT3UBjw), Tuesdays 9AM Pacific time. [Meeting notes](https://docs.google.com/document/d/1pUx9xq6L7bonSrDpyUNTQkQxTxAsULLu4kkHZLMEq6w/edit).
+* Chat: `#devtools` channel in `irc.mozilla.org`.
+* [`debugger.html` hangouts and slack channel](https://github.com/devtools-html/debugger.html#discussion).
 * Twitter: [@FirefoxDevTools](https://twitter.com/FirefoxDevTools).
 
 ## Processes
