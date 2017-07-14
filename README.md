@@ -28,8 +28,9 @@ You're more than encouraged to talk, write articles, or [make demos](https://git
 * [DevTools forum](https://discourse.mozilla-community.org/c/devtools).
 * [Mailing list](https://groups.google.com/forum/#!forum/mozilla.dev.developer-tools).
 * Team weekly video call: [Vidyo room DevTools](https://v.mozilla.com/flex.html?roomdirect.html&key=n9vJUD3L1vRMHKQC5OCNRT3UBjw), Tuesdays 9AM Pacific time. [Meeting notes](https://docs.google.com/document/d/1pUx9xq6L7bonSrDpyUNTQkQxTxAsULLu4kkHZLMEq6w/edit).
-* Chat: `#devtools` channel in `irc.mozilla.org`.
-* [`debugger.html` hangouts and slack channel](https://github.com/devtools-html/debugger.html#discussion).
+* Chat:
+  * Join the [Firefox DevTools Slack](https://devtools-html-slack.herokuapp.com/),
+  * or IRC: `#devtools` channel on `irc.mozilla.org`.
 * Twitter: [@FirefoxDevTools](https://twitter.com/FirefoxDevTools).
 
 ## Processes
