@@ -25,6 +25,7 @@ You're more than encouraged to talk, write articles, or [make demos](https://git
   * [File bugs in Mozilla's Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox&component=Developer%20Tools) (please respect the [etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html))
   * or under each repository in [devtools-html](https://github.com/devtools-html) for code in GitHub.
   * Report vulnerabilities to `security@mozilla.org`. [More info](https://www.mozilla.org/en-US/security/#For_Developers).
+* [List of open bugs](http://bugs.firefox-dev.tools/). Might be interesting if you want to contribute.
 * [DevTools forum](https://discourse.mozilla-community.org/c/devtools).
 * [Mailing list](https://groups.google.com/forum/#!forum/mozilla.dev.developer-tools).
 * Team weekly video call: [Vidyo room DevTools](https://v.mozilla.com/flex.html?roomdirect.html&key=n9vJUD3L1vRMHKQC5OCNRT3UBjw), Tuesdays 9AM Pacific time. [Meeting notes](https://docs.google.com/document/d/1pUx9xq6L7bonSrDpyUNTQkQxTxAsULLu4kkHZLMEq6w/edit).
