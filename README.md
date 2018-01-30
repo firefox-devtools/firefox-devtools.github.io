@@ -53,7 +53,7 @@ For substantial changes, we ask that a "request for comment" (RFC) document is p
 
 <div class="people-grid">
 {% for person in site.github.organization_members %}
-  <a style="display:block;text-align:center;" src="{{ person.html_url }}">
+  <a style="display:block;text-align:center;" href="{{ person.html_url }}">
   <img style="width:48px;max-height:48px;" src="{{ person.avatar_url }}"/>
   <div>{{ person.login }}</div>
   </a>
