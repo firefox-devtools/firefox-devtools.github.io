@@ -74,6 +74,7 @@ The tools are broadly divided into panels. Each panel has one or more owners, wh
 * Framework: Browser integration, toolbox and test infrastructure: jryans, bgrins, ochameau, honza
 * Inspector: gl, pbro, zer0, jdescottes, tromey
 * JSON Viewer: honza
+* Layout Frame Inspector: jryans
 * Memory: gregtatum
 * Network Monitor: honza, rickychien, gasolin
 * Performance: gregtatum
