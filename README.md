@@ -22,7 +22,7 @@ You're more than encouraged to talk, write articles, or [make demos](https://git
 ## Getting in touch
 
 * Bug reports or feature requests:
-  * [File bugs in Mozilla's Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox&component=Developer%20Tools) (please respect the [etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html))
+  * [File bugs in Mozilla's Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=DevTools) (please respect the [etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html))
   * or under each repository in [devtools-html](https://github.com/devtools-html) for code in GitHub.
   * Report vulnerabilities to `security@mozilla.org`. [More info](https://www.mozilla.org/en-US/security/#For_Developers).
 * [List of open bugs](http://bugs.firefox-dev.tools/). Might be interesting if you want to contribute.
