@@ -45,7 +45,7 @@ For substantial changes, we ask that a "request for comment" (RFC) document is p
 <style>
   .people-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(100px, auto));
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
   }
