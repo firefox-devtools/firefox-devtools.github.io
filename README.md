@@ -63,5 +63,6 @@ The tools are broadly divided into panels. Each panel has one or more owners, wh
 * Style Editor: gl
 * Storage Inspector: mikeratcliffe
 * Themes: bgrins, ntim
+* UX: victoria
 * Web Audio Editor: `<unmaintained>`
 * WebIDE: jryans, ochameau, jdescottes
