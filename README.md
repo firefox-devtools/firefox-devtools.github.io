@@ -7,8 +7,7 @@ We abide by our [code of conduct](CODE_OF_CONDUCT.md), and expect all contributo
 ## Documentation
 
 * [End user guides](https://developer.mozilla.org/en-US/docs/Tools).
-* [Developers](https://dxr.mozilla.org/mozilla-central/source/devtools/docs/) documentation - here's [an HTML version of these documents](http://docs.firefox-dev.tools/) as well.
-* Not strictly a roadmap, but these are [some of our 2017 goals](https://groups.google.com/forum/#!topic/mozilla.dev.developer-tools/e-WTOb1U8Sc).
+* [Developers documentation](http://docs.firefox-dev.tools/).
 
 ## News and demos
 
@@ -40,52 +39,29 @@ Most changes will be done via either the "pick a bug and send a patch" or "send 
 
 For substantial changes, we ask that a "request for comment" (RFC) document is provided first, so we can examine what the implications of a change will be. Here is [how to follow the RFC process](https://github.com/devtools-html/rfcs/).
 
-## People
-
-<style>
-  .people-grid {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-  }
-</style>
-
-<div class="people-grid">
-{% for person in site.github.organization_members %}
-  <a style="display:block;text-align:center;" href="{{ person.html_url }}">
-  <img style="width:48px;max-height:48px;" src="{{ person.avatar_url }}"/>
-  <div>{{ person.login }}</div>
-  </a>
-{% endfor %}
-</div>
-
 ### People and modules
 
 The tools are broadly divided into panels. Each panel has one or more owners, who mostly work(s) on that panel and are the best people to ask if you have specific questions about the code.
 
-* about:debugging: jdescottes, ochameau
+* about:debugging: jdescottes, ochameau, ladybenko, daisuke
 * Animation Inspector: gl, pbro, daisuke
 * Canvas Debugger: `<unmaintained>`
 * Console: bgrins, nchevobbe
-* Debugger: jlast
-* Developer Toolbar: jwalker, mikeratcliffe
+* Debugger: jlast, dwalsh, loganfsmyth
 * DOM: honza
+* Font Editor: rcaliman, gl, pbro
 * Framework: Browser integration, toolbox and test infrastructure: jryans, bgrins, ochameau, honza
-* Inspector: gl, pbro, zer0, jdescottes, tromey
+* Inspector: gl, pbro, jdescottes, tromey, rcaliman, mtigley, bwerth
 * JSON Viewer: honza
-* Layout Frame Inspector: jryans
 * Memory: gregtatum
-* Network Monitor: honza, rickychien, gasolin
-* Performance: gregtatum
-* Remote protocol and server infrastructure: jryans, ochameau
-* Responsive Design Mode: jryans, zer0
+* Network Monitor: honza
+* Performance: gregtatum, julienw
+* Remote protocol and server infrastructure: jryans, ochameau, yulia
+* Responsive Design Mode: jryans, gl, bwerth
 * Scratchpad: jdescottes
 * Shader Editor: `<unmaintained>`
 * Style Editor: gl
 * Storage Inspector: mikeratcliffe
 * Themes: bgrins, ntim
 * Web Audio Editor: `<unmaintained>`
-* WebIDE: jryans, ochameau
-
-
+* WebIDE: jryans, ochameau, jdescottes
