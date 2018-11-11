@@ -1,20 +1,20 @@
 # Firefox Developer Tools
 
-These are the tools provided by [Firefox](https://www.mozilla.org/firefox/) for developers to inspect Web code.
+These are the tools provided by [Firefox](https://www.mozilla.org/firefox/) for developers to inspect web code.
 
 We abide by our [code of conduct](CODE_OF_CONDUCT.md), and expect all contributors to do the same.
 
 ## Documentation
 
 * [End user guides](https://developer.mozilla.org/en-US/docs/Tools).
-* [Developers documentation](http://docs.firefox-dev.tools/).
+* [Developer documentation](http://docs.firefox-dev.tools/).
 
 ## News and demos
 
 We publish news and updates to two blogs:
 
-* [Nightly](https://blog.nightly.mozilla.org/tag/devtools/) for features newly added to Firefox Nightly. This is the place to request feedback from early adopters!
-* [Hacks](https://hacks.mozilla.org/category/developer-tools/) when features reach more stable versions of Firefox.
+* [Nightly](https://blog.nightly.mozilla.org/tag/devtools/) for features newly added to Firefox Nightly. This is where we request feedback from early adopters.
+* [Hacks](https://hacks.mozilla.org/category/developer-tools/) for when features reach more stable versions of Firefox.
 
 You're more than encouraged to talk, write articles, or [make demos](https://github.com/devtools-html/devtools-demos) about the tools. Let us know 🙂
 
