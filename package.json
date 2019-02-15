@@ -1,9 +1,9 @@
 {
-  "name": "devtools-html.github.com",
+  "name": "firefox-devtools.github.io",
   "version": "1.0.0",
-  "description": "https://devtools-html.github.io/",
-  "repository": "git@github.com:devtools-html/devtools-html.github.com.git",
-  "author": "DevTools.html",
+  "description": "https://firefox-devtools.github.io/",
+  "repository": "git@github.com:firefox-devtools/firefox-devtools.github.io.git",
+  "author": "DevTools",
   "license": "CC0-1.0",
   "scripts": {
     "lint": "remark .",
