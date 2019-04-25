@@ -16,13 +16,13 @@ We publish news and updates to two blogs:
 * [Nightly](https://blog.nightly.mozilla.org/tag/devtools/) for features newly added to Firefox Nightly. This is where we request feedback from early adopters.
 * [Hacks](https://hacks.mozilla.org/category/developer-tools/) for when features reach more stable versions of Firefox.
 
-You're more than encouraged to talk, write articles, or [make demos](https://github.com/devtools-html/devtools-demos) about the tools. Let us know 🙂
+You're more than encouraged to talk, write articles, or [make demos](https://github.com/firefox-devtools/devtools-demos) about the tools. Let us know 🙂
 
 ## Getting in touch
 
 * Bug reports or feature requests:
   * [File bugs in Mozilla's Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=DevTools) (please respect the [etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html))
-  * or under each repository in [devtools-html](https://github.com/devtools-html) for code in GitHub.
+  * or under each repository in [firefox-devtools](https://github.com/firefox-devtools) for code in GitHub.
   * Report vulnerabilities to `security@mozilla.org`. [More info](https://www.mozilla.org/en-US/security/#For_Developers).
 * [List of open bugs](http://bugs.firefox-dev.tools/). Might be interesting if you want to contribute.
 * [DevTools forum](https://discourse.mozilla-community.org/c/devtools).
@@ -37,7 +37,7 @@ You're more than encouraged to talk, write articles, or [make demos](https://git
 
 Most changes will be done via either the "pick a bug and send a patch" or "send a PR" processes.
 
-For substantial changes, we ask that a "request for comment" (RFC) document is provided first, so we can examine what the implications of a change will be. Here is [how to follow the RFC process](https://github.com/devtools-html/rfcs/).
+For substantial changes, we ask that a "request for comment" (RFC) document is provided first, so we can examine what the implications of a change will be. Here is [how to follow the RFC process](https://github.com/firefox-devtools/rfcs/).
 
 ### People and modules
 
@@ -45,24 +45,21 @@ The tools are broadly divided into panels. Each panel has one or more owners, wh
 
 * about:debugging: jdescottes, ochameau, ladybenko, daisuke
 * Animation Inspector: gl, pbro, daisuke
-* Canvas Debugger: `<unmaintained>`
 * Console: bgrins, nchevobbe
 * Debugger: jlast, dwalsh, loganfsmyth
 * DOM: honza
 * Font Editor: rcaliman, gl, pbro
-* Framework: Browser integration, toolbox and test infrastructure: jryans, bgrins, ochameau, honza
-* Inspector: gl, pbro, jdescottes, tromey, rcaliman, mtigley, bwerth
+* Framework: Browser integration, toolbox and test infrastructure: bgrins, ochameau, honza
+* Inspector: gl, pbro, jdescottes, rcaliman, mtigley, bwerth, mikeratcliffe
 * JSON Viewer: honza
 * Memory: gregtatum
 * Network Monitor: honza
 * Performance: gregtatum, julienw
-* Remote protocol and server infrastructure: jryans, ochameau, yulia
-* Responsive Design Mode: jryans, gl, bwerth
+* Remote protocol and server infrastructure: ochameau, yulia
+* Responsive Design Mode: gl, bwerth, mtigley
 * Scratchpad: jdescottes
-* Shader Editor: `<unmaintained>`
 * Style Editor: gl
 * Storage Inspector: mikeratcliffe
-* Themes: bgrins, ntim
+* CSS & Themes: ladybenko
 * UX: victoria
-* Web Audio Editor: `<unmaintained>`
-* WebIDE: jryans, ochameau, jdescottes
+* WebIDE: ochameau, jdescottes
