@@ -44,6 +44,7 @@ For substantial changes, we ask that a "request for comment" (RFC) document is p
 The tools are broadly divided into panels. Each panel has one or more owners, who mostly work(s) on that panel and are the best people to ask if you have specific questions about the code.
 
 * about:debugging: jdescottes, ochameau, ladybenko, daisuke
+* Accessibility Inspector: yzen
 * Animation Inspector: gl, pbro, daisuke
 * Console: bgrins, nchevobbe
 * Debugger: jlast, dwalsh, loganfsmyth
