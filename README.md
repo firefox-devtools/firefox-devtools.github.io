@@ -16,7 +16,7 @@ We publish news and updates to two blogs:
 * [Nightly](https://blog.nightly.mozilla.org/tag/devtools/) for features newly added to Firefox Nightly. This is where we request feedback from early adopters.
 * [Hacks](https://hacks.mozilla.org/category/developer-tools/) for when features reach more stable versions of Firefox.
 
-You're more than encouraged to talk, write articles, or [make demos](https://github.com/firefox-devtools/devtools-demos) about the tools. Let us know 🙂
+You're more than encouraged to talk, write articles, or [make demos](https://github.com/firefox-devtools/demos) about the tools. Let us know 🙂
 
 ## Getting in touch
 
