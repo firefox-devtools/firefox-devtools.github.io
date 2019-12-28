@@ -1,6 +1,6 @@
 # Firefox Developer Tools
 
-Welcome! [Firefox](https://www.mozilla.org/firefox/) DevTools is an open source toolbox for inspecting, debugging, and modifying web code. We work closely with the community in the development and design of our projects. 
+Welcome! Firefox DevTools is a set of tools for inspecting and editing web code. We work closely with the community and are always happy to welcome new contributors.
 
 Help us maintain an inclusive environment by following our [code of conduct](CODE_OF_CONDUCT.md).
 
