@@ -1,13 +1,11 @@
 # Firefox Developer Tools
 
-These are the tools provided by [Firefox](https://www.mozilla.org/firefox/) for developers to inspect web code.
-
-We abide by our [code of conduct](CODE_OF_CONDUCT.md), and expect all contributors to do the same.
+Welcome! [Firefox](https://www.mozilla.org/firefox/) DevTools is an open source toolbox for inspecting, debugging, and modifying web code. We work closely with the community in the development and design of our projects. Help us maintain an inclusive environment by following our [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Documentation
 
-* [End user guides](https://developer.mozilla.org/en-US/docs/Tools).
-* [Developer documentation](http://docs.firefox-dev.tools/).
+* [Contributor documentation](http://docs.firefox-dev.tools/).
+* [MDN DevTools user guides](https://developer.mozilla.org/en-US/docs/Tools).
 
 ## News and demos
 
