@@ -1,18 +1,18 @@
-Welcome! Firefox DevTools is a set of tools for inspecting and editing web code. We work closely with the community and are always happy to welcome new contributors.
+Welcome! Firefox DevTools is a set of tools for inspecting and editing web code. Our team works closely with the community and is always happy to welcome new contributors.
 
 Help us maintain an inclusive environment by following our [code of conduct](CODE_OF_CONDUCT.md).
 
 # How to Contribute
 
 ## Code & Design
-- The DevTools codebase is made of HTML, CSS, and JavaScript.
+- Firefox DevTools is a web app written in HTML, CSS, and JavaScript.
     - Read the [contributor docs](http://docs.firefox-dev.tools/) to get started.
-    - Check out our [Good First Bugs](https://bugs.firefox-dev.tools/?easy&tool=all) to see what’s available.
+    - Check out our [good first bugs](https://bugs.firefox-dev.tools/?easy&tool=all) to see what's available.
 - Our [UX repository](https://github.com/firefox-devtools/ux) has issues that need design ideas and critique.
 - Join our [Slack](https://devtools-html-slack.herokuapp.com/) to hang out and ask questions.
 
 ## Give Feedback
-- On [Twitter](https://twitter.com/FirefoxDevTools), we often ask for feedback on brand new designs and prototypes.
+- On [Twitter](https://twitter.com/FirefoxDevTools), we often ask for feedback on new designs and prototypes.
 - Use [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=DevTools) to file bugs and enhancement requests.
 - Help us foxfood new features by using pre-release builds:
     - [Firefox DevEdition](https://www.mozilla.org/firefox/developer/) (based on beta, recommended for most)
@@ -20,7 +20,7 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
 
 ## Write
 - We love to see blog posts, talks, and [demos](https://github.com/firefox-devtools/demos) about DevTools! Message us on [Slack](https://devtools-html-slack.herokuapp.com/) for help.
-- Improve our [contributor docs](http://docs.firefox-dev.tools/) by creating a [pull request](https://github.com/mozilla/gecko-dev/tree/master/devtools), or edit our [user docs](https://developer.mozilla.org/en-US/docs/Tools).
+- Improve our [contributor docs](http://docs.firefox-dev.tools/) by creating a [pull request](https://github.com/mozilla/gecko-dev/tree/master/devtools) or edit our [user docs on MDN](https://developer.mozilla.org/en-US/docs/Tools).
 - Answer questions others have on Slack and other channels.
 
 # Stay Updated
@@ -35,7 +35,7 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
 
 ## People and modules
 
-The tools are broadly divided into panels. Each panel has one or more owners, who mostly work(s) on that panel and are the best people to ask if you have specific questions about the code.
+The tools are broadly divided into panels. Each panel has one or more owners who mostly work on that panel and are the best people to ask if you have specific questions about the code.
 
 * about:debugging: jdescottes, ochameau, ladybenko, daisuke
 * Accessibility Inspector: yzen
