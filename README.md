@@ -25,7 +25,7 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
 
 # Stay Updated
 
-* [Hacks blog](https://hacks.mozilla.org/category/developer-tools/)
+* [Mozilla Hacks blog](https://hacks.mozilla.org/category/developer-tools/)
 * [Twitter: @FirefoxDevTools](https://twitter.com/FirefoxDevTools)
 * [YouTube: Mozilla Developer](https://www.youtube.com/channel/UCh5UlGiu9d6LegIeUCW4N1w)
 * [Discourse forum](https://discourse.mozilla-community.org/c/devtools)
@@ -33,9 +33,9 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
 
 # About DevTools
 
-## Modules
+## Leadership
 
-DevTools is divided into [modules](https://wiki.mozilla.org/Modules) which each have one or more owners who oversee part of the project.
+DevTools is divided into [modules](https://wiki.mozilla.org/Modules) which are managed by team members with expertise in that part of the project.
 
 * about:debugging: jdescottes, ochameau, ladybenko, daisuke
 * Accessibility Inspector: yzen
