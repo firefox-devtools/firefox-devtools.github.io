@@ -33,9 +33,9 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
 
 # About DevTools
 
-## People and modules
+## Modules
 
-The tools are broadly divided into panels. Each panel has one or more owners who mostly work on that panel and are the best people to ask if you have specific questions about the code.
+DevTools is divided into [modules](https://wiki.mozilla.org/Modules) which each have one or more owners who oversee part of the project.
 
 * about:debugging: jdescottes, ochameau, ladybenko, daisuke
 * Accessibility Inspector: yzen
