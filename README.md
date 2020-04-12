@@ -20,7 +20,7 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
 
 ## Write
 - We love to see blog posts, talks, and [demos](https://github.com/firefox-devtools/demos) about DevTools! Message us on [Slack](https://devtools-html-slack.herokuapp.com/) for help.
-- Improve our [contributor docs](http://docs.firefox-dev.tools/) by creating a [pull request](https://github.com/mozilla/gecko-dev/tree/master/devtools) or edit our [user docs on MDN](https://developer.mozilla.org/en-US/docs/Tools).
+- Improve our [contributor docs](https://firefox-source-docs.mozilla.org/devtools/) by creating a [pull request](https://github.com/mozilla/gecko-dev/tree/master/devtools) or edit our [user docs on MDN](https://developer.mozilla.org/en-US/docs/Tools).
 - Answer questions others have on Slack and other channels.
 
 # Stay Updated
