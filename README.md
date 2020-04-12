@@ -6,7 +6,7 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
 
 ## Code & Design
 - Firefox DevTools is a web app written in HTML, CSS, and JavaScript.
-    - Read the [contributor docs](http://docs.firefox-dev.tools/) to get started.
+    - Read the [contributor docs](https://firefox-source-docs.mozilla.org/devtools/) to get started.
     - Check out our [good first bugs](https://bugs.firefox-dev.tools/?easy&tool=all) to see what's available.
 - Our [UX repository](https://github.com/firefox-devtools/ux) has issues that need design ideas and critique.
 - Join our [Slack](https://devtools-html-slack.herokuapp.com/) to hang out and ask questions.
