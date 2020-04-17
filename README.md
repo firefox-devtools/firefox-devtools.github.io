@@ -39,9 +39,9 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
  Firefox DevTools now grays out CSS declarations that don’t have an effect on the page. When you hover over the info icon, you’ll see a useful message about why the CSS is not being applied, including a hint about how to fix the problem.
  ![Inactive_CSS](https://www.mozilla.org/media/img/firefox/developer/hero-inactive-css.40a2e0b8ddb1.png) 
 
-* [Master CSS](https://mozilladevelopers.github.io/playground/css-grid/):
+* [Master Gird](https://mozilladevelopers.github.io/playground/css-grid/):
  Grid Firefox is the only browser with tools built specifically for building and designing with CSS Grid. These tools allow you to visualize the grid, display associated area names, preview transformations on the grid and much more.
- ![Master_CSS](https://www.mozilla.org/media/img/firefox/developer/hero-cssgrid-ani.c0a7ace9dbf7.gif)
+ ![Master_Gird](https://www.mozilla.org/media/img/firefox/developer/hero-cssgrid-ani.c0a7ace9dbf7.gif)
 
 * [Shape Path Editor](https://developer.mozilla.org/ko/docs/Tools/Page_Inspector/How_to/Edit_CSS_shapes):
 The Shape Path Editor is a tool helps you see and edit shapes created using `clip-path` and also the CSS `shape-outside` property and  `<basic-shpae>` values. This guide walks you through all available options.
