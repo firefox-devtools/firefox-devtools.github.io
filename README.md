@@ -9,7 +9,7 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
     - Read the [contributor docs](https://firefox-source-docs.mozilla.org/devtools/) to get started.
     - Check out our [good first bugs](https://bugs.firefox-dev.tools/?easy&tool=all) to see what's available.
 - Our [UX repository](https://github.com/firefox-devtools/ux) has issues that need design ideas and critique.
-- Join our [Slack](https://devtools-html-slack.herokuapp.com/) to hang out and ask questions.
+- Join our [chat rooms](https://chat.mozilla.org/#/group/+devtools-team:mozilla.org) to hang out and ask questions.
 
 ## Give Feedback
 - On [Twitter](https://twitter.com/FirefoxDevTools), we often ask for feedback on new designs and prototypes.
@@ -19,9 +19,9 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
     - [Firefox Nightly](https://www.mozilla.org/firefox/channel/desktop/#nightly) (updated twice daily)
 
 ## Write
-- We love to see blog posts, talks, and [demos](https://github.com/firefox-devtools/demos) about DevTools! Message us on [Slack](https://devtools-html-slack.herokuapp.com/) for help.
+- We love to see blog posts, talks, and [demos](https://github.com/firefox-devtools/demos) about DevTools! Message us on [chat](https://chat.mozilla.org/#/group/+devtools-team:mozilla.org) for help.
 - Improve our [contributor docs](https://firefox-source-docs.mozilla.org/devtools/) by creating a [pull request](https://github.com/mozilla/gecko-dev/tree/master/devtools) or edit our [user docs on MDN](https://developer.mozilla.org/en-US/docs/Tools).
-- Answer questions others have on Slack and other channels.
+- Answer questions others have on various channels.
 
 # Stay Updated
 
