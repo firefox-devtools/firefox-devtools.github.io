@@ -7,7 +7,7 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
 ## Code & Design
 - Firefox DevTools is a web app written in HTML, CSS, and JavaScript.
     - Read the [contributor docs](https://firefox-source-docs.mozilla.org/devtools/) to get started.
-    - Check out our [good first bugs](https://bugs.firefox-dev.tools/?easy&tool=all) to see what's available.
+    - Check out our [good first bugs](https://codetribute.mozilla.org/projects/devtools) to see what's available.
 - Our [UX repository](https://github.com/firefox-devtools/ux) has issues that need design ideas and critique.
 - Join our [chat rooms](https://chat.mozilla.org/#/group/+devtools-team:mozilla.org) to hang out and ask questions.
 
@@ -39,22 +39,21 @@ DevTools is divided into [modules](https://wiki.mozilla.org/Modules) which are m
 
 * about:debugging: jdescottes, ochameau, ladybenko, daisuke
 * Accessibility Inspector: yzen
-* Animation Inspector: gl, pbro, daisuke
-* Console: bgrins, nchevobbe
-* Debugger: jlast, dwalsh, loganfsmyth
+* Animation Inspector: gl, daisuke
+* Application Panel: ladybenko, jdescottes
+* Console: nchevobbe
+* Debugger: bomsy, nchevobbe
 * DOM: honza
-* Font Editor: rcaliman, gl, pbro
-* Framework: Browser integration, toolbox, and test infrastructure: bgrins, ochameau, honza
-* Inspector: gl, pbro, jdescottes, rcaliman, mtigley, bwerth, mikeratcliffe
+* Font Editor: rcaliman, gl
+* Framework: Browser integration, toolbox, and test infrastructure: ochameau, honza, jdescottes, nchevobbe
+* Inspector: gl, jdescottes, rcaliman, mtigley, bwerth
 * JSON Viewer: honza
 * Memory: gregtatum
-* Network Monitor: honza
+* Network Monitor: honza, bomsy
 * Performance: gregtatum, julienw
-* Remote protocol and server infrastructure: ochameau, yulia
+* Remote protocol and server infrastructure: ochameau, jdescottes, nchevobbe
 * Responsive Design Mode: gl, bwerth, mtigley
-* Scratchpad: jdescottes
 * Style Editor: gl
-* Storage Inspector: mikeratcliffe
+* Storage Inspector: ladybenko
 * CSS & Themes: ladybenko
 * UX: victoria
-* WebIDE: ochameau, jdescottes
