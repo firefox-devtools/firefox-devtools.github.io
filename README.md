@@ -15,6 +15,6 @@ Help build the last independent browser. Write code, fix bugs, make add-ons, and
 ## Speak Up
 - [File bugs](https://bugzilla.mozilla.org/enter_bug.cgi?product=DevTools&component=General)
 - [Discourse forum](https://discourse.mozilla-community.org/c/devtools)
-- [Follow us on Twitter](https://twitter.com/FirefoxDevTools)
-- [Join our chat rooms](https://chat.mozilla.org/#/group/+devtools-team:mozilla.org)
+- [Follow us on Mastodon](https://mozilla.social/@FirefoxDevTools) or [Twitter](https://twitter.com/FirefoxDevTools)
+- [Join our chat rooms](https://chat.mozilla.org/#/room/#devtools:mozilla.org)
 - [Mailing list](https://groups.google.com/forum/#!forum/mozilla.dev.developer-tools)
