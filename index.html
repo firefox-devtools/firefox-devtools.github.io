@@ -1,144 +1,402 @@
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Firefox Developer Tools</title>
-  <link rel="stylesheet" href="./styles.css"></link>
-</head>
-<body>
-
-  <!-- Mozilla Logo -->
-  <div class="navigation-logo">
-    <a href="https://www.mozilla.org/" data-link-name="mozilla home icon" data-link-type="nav">
-      <img class="navigation-logo-image" src="./images/mozilla.svg" alt="Mozilla" width="112" height="32">
-    </a>
-  </div>
-
-  <!-- Header -->
-  <div class="titlebar-container">
-    <img src="./images/fx-browser-developer-icon-full-color.svg" alt="" width="180px"/>
-    <div class="titlebar-wrapper">
-      <h1 class="title">Firefox Developer Tools</h1>
-      <p class="description">A set of tools for inspecting and editing web code.<br/>
-      Our team works closely with the community and is always happy to<br/>
-      welcome new contributors.</p>
+  <head>
+    <meta charset="utf-8" />
+    <title>Firefox Developer Tools</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Mozilla Logo -->
+    <div class="navigation-logo">
+      <a
+        href="https://www.mozilla.org/"
+        data-link-name="mozilla home icon"
+        data-link-type="nav"
+      >
+        <img
+          class="navigation-logo-image"
+          src="./images/mozilla.svg"
+          alt="Mozilla"
+          width="112"
+          height="32"
+        />
+      </a>
     </div>
-  </div>
 
-  <!-- Content -->
-  <div class="content-container">
-    <table class="content-table">
-      <tr>
-        <td>
-          <img class="basic-icon" src="./images/icon-involved.svg" alt="" />
-        </td>
-        <td>
-          <h2>Get Involved</h2>
-          Help build the last independent browser. Write code, fix bugs, make add-ons, and more.
-          <ul>
-            <li><a href="https://firefox-source-docs.mozilla.org/devtools">Contributor docs</a></li>
-            <li><a href="https://codetribute.mozilla.org/projects/devtools">Good first bugs</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img class="basic-icon" src="./images/icon-speak.svg" alt="" />
-        </td>
-        <td>
-          <h2>Speak Up</h2>
-          Feedback makes us better. Tell us how we can improve the browser and Developer tools.
-          <ul>
-            <li><a href="https://bugzilla.mozilla.org/enter_bug.cgi?product=DevTools&component=General">File bugs</a></li>
-            <li><a href="https://discourse.mozilla-community.org/c/devtools">Discourse forum</a></li>
-            <li><a href="https://mozilla.social/@FirefoxDevTools">Follow us on Mastodon</a> or <a href="https://twitter.com/FirefoxDevTools">Twitter</a></li>
-            <li><a href="https://chat.mozilla.org/#/room/#devtools:mozilla.org">Join our chat rooms</a></li>
-            <li><a href="https://groups.google.com/forum/#!forum/mozilla.dev.developer-tools">Mailing list</a></li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </div>
-
-  <!-- Tools -->
-  <div class="content-container">
-  <div class="features">
-    <ul class="features-list">
-    <li class="feature">
-    <h3 class="feature-name">
-      <a class="feature-link" href="https://developer.mozilla.org/docs/Tools/Page_Inspector?utm_source=devtools&amp;utm_medium=onboarding" target="_blank">
-        <img class="feature-icon" src="./images/feature-inspector.svg" alt="" />
-        <span data-l10n-id="features-inspector-title">Inspector</span>
-      </a>
-    </h3>
-    <p class="feature-desc" data-l10n-id="features-inspector-desc">Inspect and refine code to build pixel-perfect layouts. <a class="feature-more-link external" href="https://developer.mozilla.org/docs/Tools/Page_Inspector?utm_source=devtools&amp;utm_medium=onboarding" aria-hidden="true" tabindex="-1" target="_blank" data-l10n-name="learn-more">Learn more</a></p></li><li class="feature">
-    <h3 class="feature-name">
-      <a class="feature-link" href="https://developer.mozilla.org/docs/Tools/Web_Console?utm_source=devtools&amp;utm_medium=onboarding" target="_blank">
-        <img class="feature-icon" src="./images/feature-console.svg" alt="" />
-        <span data-l10n-id="features-console-title">Console</span>
-      </a>
-    </h3>
-    <p class="feature-desc" data-l10n-id="features-console-desc">Track CSS, JavaScript, security and network issues. <a class="feature-more-link external" href="https://developer.mozilla.org/docs/Tools/Web_Console?utm_source=devtools&amp;utm_medium=onboarding" aria-hidden="true" tabindex="-1" target="_blank" data-l10n-name="learn-more">Learn more</a></p></li><li class="feature">
-    <h3 class="feature-name">
-      <a class="feature-link" href="https://developer.mozilla.org/docs/Tools/Debugger?utm_source=devtools&amp;utm_medium=onboarding" target="_blank">
-        <img class="feature-icon" src="./images/feature-debugger.svg" alt="" />
-        <span data-l10n-id="features-debugger-title">Debugger</span>
-      </a>
-    </h3>
-    <p class="feature-desc" data-l10n-id="features-debugger-desc">Powerful JavaScript debugger with support for your framework. <a class="feature-more-link external" href="https://developer.mozilla.org/docs/Tools/Debugger?utm_source=devtools&amp;utm_medium=onboarding" aria-hidden="true" tabindex="-1" target="_blank" data-l10n-name="learn-more">Learn more</a></p></li><li class="feature">
-    <h3 class="feature-name">
-      <a class="feature-link" href="https://developer.mozilla.org/docs/Tools/Network_Monitor?utm_source=devtools&amp;utm_medium=onboarding" target="_blank">
-        <img class="feature-icon" src="./images/feature-network.svg" alt="" />
-        <span data-l10n-id="features-network-title">Network</span>
-      </a>
-    </h3>
-    <p class="feature-desc" data-l10n-id="features-network-desc">Monitor network requests that can slow or block your site. <a class="feature-more-link external" href="https://developer.mozilla.org/docs/Tools/Network_Monitor?utm_source=devtools&amp;utm_medium=onboarding" aria-hidden="true" tabindex="-1" target="_blank" data-l10n-name="learn-more">Learn more</a></p></li><li class="feature">
-    <h3 class="feature-name">
-      <a class="feature-link" href="https://developer.mozilla.org/docs/Tools/Storage_Inspector?utm_source=devtools&amp;utm_medium=onboarding" target="_blank">
-        <img class="feature-icon" src="./images/feature-storage.svg" alt="" />
-        <span data-l10n-id="features-storage-title">Storage</span>
-      </a>
-    </h3>
-    <p class="feature-desc" data-l10n-id="features-storage-desc">Add, modify and remove cache, cookies, databases and session data. <a class="feature-more-link external" href="https://developer.mozilla.org/docs/Tools/Storage_Inspector?utm_source=devtools&amp;utm_medium=onboarding" aria-hidden="true" tabindex="-1" target="_blank" data-l10n-name="learn-more">Learn more</a></p></li><li class="feature">
-    <h3 class="feature-name">
-      <a class="feature-link" href="https://developer.mozilla.org/docs/Tools/Responsive_Design_Mode?utm_source=devtools&amp;utm_medium=onboarding" target="_blank">
-        <img class="feature-icon" src="./images/feature-responsive.svg" alt="" />
-        <span data-l10n-id="features-responsive-title">Responsive Design Mode</span>
-      </a>
-    </h3>
-    <p class="feature-desc" data-l10n-id="features-responsive-desc">Test sites on emulated devices in your browser. <a class="feature-more-link external" href="https://developer.mozilla.org/docs/Tools/Responsive_Design_Mode?utm_source=devtools&amp;utm_medium=onboarding" aria-hidden="true" tabindex="-1" target="_blank" data-l10n-name="learn-more">Learn more</a></p></li><li class="feature">
-    <h3 class="feature-name">
-      <a class="feature-link" href="https://developer.mozilla.org/docs/Tools/Style_Editor?utm_source=devtools&amp;utm_medium=onboarding" target="_blank">
-        <img class="feature-icon" src="./images/feature-visualediting.svg" alt="" />
-        <span data-l10n-id="features-visual-editing-title">Visual Editing</span>
-      </a>
-    </h3>
-    <p class="feature-desc" data-l10n-id="features-visual-editing-desc">Fine-tune animations, alignment and padding. <a class="feature-more-link external" href="https://developer.mozilla.org/docs/Tools/Style_Editor?utm_source=devtools&amp;utm_medium=onboarding" aria-hidden="true" tabindex="-1" target="_blank" data-l10n-name="learn-more">Learn more</a></p></li><li class="feature">
-    <h3 class="feature-name">
-      <a class="feature-link" href="https://developer.mozilla.org/docs/Tools/Performance?utm_source=devtools&amp;utm_medium=onboarding" target="_blank">
-        <img class="feature-icon" src="./images/feature-performance.svg" alt="" />
-        <span data-l10n-id="features-performance-title">Performance</span>
-      </a>
-    </h3>
-    <p class="feature-desc" data-l10n-id="features-performance-desc">Unblock bottlenecks, streamline processes, optimize assets. <a class="feature-more-link external" href="https://developer.mozilla.org/docs/Tools/Performance?utm_source=devtools&amp;utm_medium=onboarding" aria-hidden="true" tabindex="-1" target="_blank" data-l10n-name="learn-more">Learn more</a></p></li><li class="feature">
-    <h3 class="feature-name">
-      <a class="feature-link" href="https://developer.mozilla.org/docs/Tools/Memory?utm_source=devtools&amp;utm_medium=onboarding" target="_blank">
-        <img class="feature-icon" src="./images/feature-memory.svg" alt="" />
-        <span data-l10n-id="features-memory-title">Memory</span>
-      </a>
-    </h3>
-    <p class="feature-desc" data-l10n-id="features-memory-desc">Find memory leaks and make your application zippy. <a class="feature-more-link external" href="https://developer.mozilla.org/docs/Tools/Memory?utm_source=devtools&amp;utm_medium=onboarding" aria-hidden="true" tabindex="-1" target="_blank" data-l10n-name="learn-more">Learn more</a></p></li></ul>
-  </div>
-  </div>
-
-  <!-- Footer -->
-  <footer>
-    <img class="dev-edition-logo" src="./images/dev-edition-logo.svg" alt="" />
-    <div class="footer-message">
-      <h1 class="footer-message-title" data-l10n-id="footer-title">Firefox Developer Edition</h1>
-      <p data-l10n-id="footer-message">Looking for more than just Developer Tools? Check out the Firefox browser that is built specifically for developers and modern workflows.</p>
-      <a class="external footer-link" href="https://www.mozilla.org/firefox/developer/?utm_source=devtools&amp;utm_medium=onboarding" target="_blank" data-l10n-id="footer-learn-more-link">Learn more</a>
+    <!-- Header -->
+    <div class="titlebar-container">
+      <img
+        src="./images/fx-browser-developer-icon-full-color.svg"
+        alt=""
+        width="180px"
+      />
+      <div class="titlebar-wrapper">
+        <h1 class="title">Firefox Developer Tools</h1>
+        <p class="description">
+          A set of tools for inspecting and editing web code.<br />
+          Our team works closely with the community and is always happy to<br />
+          welcome new contributors.
+        </p>
+      </div>
     </div>
-  </footer>
 
-</body>
+    <!-- Content -->
+    <div class="content-container">
+      <table class="content-table">
+        <tr>
+          <td>
+            <img class="basic-icon" src="./images/icon-involved.svg" alt="" />
+          </td>
+          <td>
+            <h2>Get Involved</h2>
+            Help build the last independent browser. Write code, fix bugs, make
+            add-ons, and more.
+            <ul>
+              <li>
+                <a href="https://firefox-source-docs.mozilla.org/devtools"
+                  >Contributor docs</a
+                >
+              </li>
+              <li>
+                <a href="https://codetribute.mozilla.org/projects/devtools"
+                  >Good first bugs</a
+                >
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img class="basic-icon" src="./images/icon-speak.svg" alt="" />
+          </td>
+          <td>
+            <h2>Speak Up</h2>
+            Feedback makes us better. Tell us how we can improve the browser and
+            Developer tools.
+            <ul>
+              <li>
+                <a
+                  href="https://bugzilla.mozilla.org/enter_bug.cgi?product=DevTools&component=General"
+                  >File bugs</a
+                >
+              </li>
+              <li>
+                <a href="https://discourse.mozilla-community.org/c/devtools"
+                  >Discourse forum</a
+                >
+              </li>
+              <li>
+                <a href="https://mozilla.social/@FirefoxDevTools"
+                  >Follow us on Mastodon</a
+                >
+                or <a href="https://twitter.com/FirefoxDevTools">Twitter</a>
+              </li>
+              <li>
+                <a href="https://chat.mozilla.org/#/room/#devtools:mozilla.org"
+                  >Join our chat rooms</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://groups.google.com/forum/#!forum/mozilla.dev.developer-tools"
+                  >Mailing list</a
+                >
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Tools -->
+    <div class="content-container">
+      <div class="features">
+        <ul class="features-list">
+          <li class="feature">
+            <h3 class="feature-name">
+              <a
+                class="feature-link"
+                href="https://developer.mozilla.org/docs/Tools/Page_Inspector?utm_source=devtools&amp;utm_medium=onboarding"
+                target="_blank"
+              >
+                <img
+                  class="feature-icon"
+                  src="./images/feature-inspector.svg"
+                  alt=""
+                />
+                <span data-l10n-id="features-inspector-title">Inspector</span>
+              </a>
+            </h3>
+            <p class="feature-desc" data-l10n-id="features-inspector-desc">
+              Inspect and refine code to build pixel-perfect layouts.
+              <a
+                class="feature-more-link external"
+                href="https://developer.mozilla.org/docs/Tools/Page_Inspector?utm_source=devtools&amp;utm_medium=onboarding"
+                aria-hidden="true"
+                tabindex="-1"
+                target="_blank"
+                data-l10n-name="learn-more"
+                >Learn more</a
+              >
+            </p>
+          </li>
+          <li class="feature">
+            <h3 class="feature-name">
+              <a
+                class="feature-link"
+                href="https://developer.mozilla.org/docs/Tools/Web_Console?utm_source=devtools&amp;utm_medium=onboarding"
+                target="_blank"
+              >
+                <img
+                  class="feature-icon"
+                  src="./images/feature-console.svg"
+                  alt=""
+                />
+                <span data-l10n-id="features-console-title">Console</span>
+              </a>
+            </h3>
+            <p class="feature-desc" data-l10n-id="features-console-desc">
+              Track CSS, JavaScript, security and network issues.
+              <a
+                class="feature-more-link external"
+                href="https://developer.mozilla.org/docs/Tools/Web_Console?utm_source=devtools&amp;utm_medium=onboarding"
+                aria-hidden="true"
+                tabindex="-1"
+                target="_blank"
+                data-l10n-name="learn-more"
+                >Learn more</a
+              >
+            </p>
+          </li>
+          <li class="feature">
+            <h3 class="feature-name">
+              <a
+                class="feature-link"
+                href="https://developer.mozilla.org/docs/Tools/Debugger?utm_source=devtools&amp;utm_medium=onboarding"
+                target="_blank"
+              >
+                <img
+                  class="feature-icon"
+                  src="./images/feature-debugger.svg"
+                  alt=""
+                />
+                <span data-l10n-id="features-debugger-title">Debugger</span>
+              </a>
+            </h3>
+            <p class="feature-desc" data-l10n-id="features-debugger-desc">
+              Powerful JavaScript debugger with support for your framework.
+              <a
+                class="feature-more-link external"
+                href="https://developer.mozilla.org/docs/Tools/Debugger?utm_source=devtools&amp;utm_medium=onboarding"
+                aria-hidden="true"
+                tabindex="-1"
+                target="_blank"
+                data-l10n-name="learn-more"
+                >Learn more</a
+              >
+            </p>
+          </li>
+          <li class="feature">
+            <h3 class="feature-name">
+              <a
+                class="feature-link"
+                href="https://developer.mozilla.org/docs/Tools/Network_Monitor?utm_source=devtools&amp;utm_medium=onboarding"
+                target="_blank"
+              >
+                <img
+                  class="feature-icon"
+                  src="./images/feature-network.svg"
+                  alt=""
+                />
+                <span data-l10n-id="features-network-title">Network</span>
+              </a>
+            </h3>
+            <p class="feature-desc" data-l10n-id="features-network-desc">
+              Monitor network requests that can slow or block your site.
+              <a
+                class="feature-more-link external"
+                href="https://developer.mozilla.org/docs/Tools/Network_Monitor?utm_source=devtools&amp;utm_medium=onboarding"
+                aria-hidden="true"
+                tabindex="-1"
+                target="_blank"
+                data-l10n-name="learn-more"
+                >Learn more</a
+              >
+            </p>
+          </li>
+          <li class="feature">
+            <h3 class="feature-name">
+              <a
+                class="feature-link"
+                href="https://developer.mozilla.org/docs/Tools/Storage_Inspector?utm_source=devtools&amp;utm_medium=onboarding"
+                target="_blank"
+              >
+                <img
+                  class="feature-icon"
+                  src="./images/feature-storage.svg"
+                  alt=""
+                />
+                <span data-l10n-id="features-storage-title">Storage</span>
+              </a>
+            </h3>
+            <p class="feature-desc" data-l10n-id="features-storage-desc">
+              Add, modify and remove cache, cookies, databases and session data.
+              <a
+                class="feature-more-link external"
+                href="https://developer.mozilla.org/docs/Tools/Storage_Inspector?utm_source=devtools&amp;utm_medium=onboarding"
+                aria-hidden="true"
+                tabindex="-1"
+                target="_blank"
+                data-l10n-name="learn-more"
+                >Learn more</a
+              >
+            </p>
+          </li>
+          <li class="feature">
+            <h3 class="feature-name">
+              <a
+                class="feature-link"
+                href="https://developer.mozilla.org/docs/Tools/Responsive_Design_Mode?utm_source=devtools&amp;utm_medium=onboarding"
+                target="_blank"
+              >
+                <img
+                  class="feature-icon"
+                  src="./images/feature-responsive.svg"
+                  alt=""
+                />
+                <span data-l10n-id="features-responsive-title"
+                  >Responsive Design Mode</span
+                >
+              </a>
+            </h3>
+            <p class="feature-desc" data-l10n-id="features-responsive-desc">
+              Test sites on emulated devices in your browser.
+              <a
+                class="feature-more-link external"
+                href="https://developer.mozilla.org/docs/Tools/Responsive_Design_Mode?utm_source=devtools&amp;utm_medium=onboarding"
+                aria-hidden="true"
+                tabindex="-1"
+                target="_blank"
+                data-l10n-name="learn-more"
+                >Learn more</a
+              >
+            </p>
+          </li>
+          <li class="feature">
+            <h3 class="feature-name">
+              <a
+                class="feature-link"
+                href="https://developer.mozilla.org/docs/Tools/Style_Editor?utm_source=devtools&amp;utm_medium=onboarding"
+                target="_blank"
+              >
+                <img
+                  class="feature-icon"
+                  src="./images/feature-visualediting.svg"
+                  alt=""
+                />
+                <span data-l10n-id="features-visual-editing-title"
+                  >Visual Editing</span
+                >
+              </a>
+            </h3>
+            <p class="feature-desc" data-l10n-id="features-visual-editing-desc">
+              Fine-tune animations, alignment and padding.
+              <a
+                class="feature-more-link external"
+                href="https://developer.mozilla.org/docs/Tools/Style_Editor?utm_source=devtools&amp;utm_medium=onboarding"
+                aria-hidden="true"
+                tabindex="-1"
+                target="_blank"
+                data-l10n-name="learn-more"
+                >Learn more</a
+              >
+            </p>
+          </li>
+          <li class="feature">
+            <h3 class="feature-name">
+              <a
+                class="feature-link"
+                href="https://developer.mozilla.org/docs/Tools/Performance?utm_source=devtools&amp;utm_medium=onboarding"
+                target="_blank"
+              >
+                <img
+                  class="feature-icon"
+                  src="./images/feature-performance.svg"
+                  alt=""
+                />
+                <span data-l10n-id="features-performance-title"
+                  >Performance</span
+                >
+              </a>
+            </h3>
+            <p class="feature-desc" data-l10n-id="features-performance-desc">
+              Unblock bottlenecks, streamline processes, optimize assets.
+              <a
+                class="feature-more-link external"
+                href="https://developer.mozilla.org/docs/Tools/Performance?utm_source=devtools&amp;utm_medium=onboarding"
+                aria-hidden="true"
+                tabindex="-1"
+                target="_blank"
+                data-l10n-name="learn-more"
+                >Learn more</a
+              >
+            </p>
+          </li>
+          <li class="feature">
+            <h3 class="feature-name">
+              <a
+                class="feature-link"
+                href="https://developer.mozilla.org/docs/Tools/Memory?utm_source=devtools&amp;utm_medium=onboarding"
+                target="_blank"
+              >
+                <img
+                  class="feature-icon"
+                  src="./images/feature-memory.svg"
+                  alt=""
+                />
+                <span data-l10n-id="features-memory-title">Memory</span>
+              </a>
+            </h3>
+            <p class="feature-desc" data-l10n-id="features-memory-desc">
+              Find memory leaks and make your application zippy.
+              <a
+                class="feature-more-link external"
+                href="https://developer.mozilla.org/docs/Tools/Memory?utm_source=devtools&amp;utm_medium=onboarding"
+                aria-hidden="true"
+                tabindex="-1"
+                target="_blank"
+                data-l10n-name="learn-more"
+                >Learn more</a
+              >
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <img
+        class="dev-edition-logo"
+        src="./images/dev-edition-logo.svg"
+        alt=""
+      />
+      <div class="footer-message">
+        <h1 class="footer-message-title" data-l10n-id="footer-title">
+          Firefox Developer Edition
+        </h1>
+        <p data-l10n-id="footer-message">
+          Looking for more than just Developer Tools? Check out the Firefox
+          browser that is built specifically for developers and modern
+          workflows.
+        </p>
+        <a
+          class="external footer-link"
+          href="https://www.mozilla.org/firefox/developer/?utm_source=devtools&amp;utm_medium=onboarding"
+          target="_blank"
+          data-l10n-id="footer-learn-more-link"
+          >Learn more</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
