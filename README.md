@@ -10,7 +10,7 @@ Help us maintain an inclusive environment by following our [code of conduct](COD
 Help build the last independent browser. Write code, fix bugs, make add-ons, and more.
 
 - [Contributor docs](https://firefox-source-docs.mozilla.org/devtools)
-- [Good first bugs](https://codetribute.mozilla.org/projects/devtools)
+- [Good first bugs](https://codetribute.mozilla.org/projects/firefox-devtools)
 
 ## Speak Up
 - [File bugs](https://bugzilla.mozilla.org/enter_bug.cgi?product=DevTools&component=General)
